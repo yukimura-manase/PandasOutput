@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/* 初期化 */
+* {
+	margin:0;
+	padding:0;
+}
+
+/* ButtonタグのDefault-CSSを無効化する */
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    appearance: none;
+}
+
+.App-Header {
+    background-color: #6ea9d3;
+    text-align: center;
+    color: white;
+}
+
+.Header-Nav {
+    text-align: right;
+}
+
+.Header-Nav button {
+    text-align: right;
+    font-size: 25px;
+    color: white;
+    margin: 20px 20px;
+}
+
+.Header-Nav:hover {
+    color: white;
+}
+
+
+.App-Footer {
+    background-color: #6ea9d3;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 100px;
+    position: absolute;/*←絶対位置*/
+    bottom: 0; /*下に固定*/
+}
+
+.Footer-Msg {
+    margin-top: 50px;
+}
+
